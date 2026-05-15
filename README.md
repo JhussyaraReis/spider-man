@@ -20,6 +20,6 @@ Projeto desenvolvido durante o curso da DIO.me com o tema do multiverso do Homem
 
 O projeto teve como objetivo praticar conceitos de desenvolvimento front-end, manipulação de elementos visuais com JavaScript e criação de interfaces interativas inspiradas no universo cinematográfico do Homem-Aranha.
 
-![alt text](image.png)
+![alt text](assets/images/readme/image.png)
 
-![alt text](image-1.png)
+![alt text](assets/images/readme/image-1.png)
