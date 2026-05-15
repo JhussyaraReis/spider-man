@@ -3,6 +3,7 @@
 @import url(./components/__navigator.css);
 @import url(./components/__pills.css);
 @import url(./components/__link-button.css);
+@import url(./components/__gallery.css);
 
 .s-wrapper {
   display: flex;
@@ -75,4 +76,9 @@
 .s-wrapper .s-main-content .s-links ul {
   display: flex;
   flex-direction: row;
+}
+
+.s-spiderman-01-01 {
+  background-image: url(../images/spiderman-tobey/movie-01/background.png);
+  background-size: cover;
 }

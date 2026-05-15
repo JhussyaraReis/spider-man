@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Multiverso | SpiderMan</title>
     <link rel="stylesheet" href="/assets/css/internal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"
+    />
   </head>
   <body>
     <div class="s-wrapper">
@@ -22,7 +26,7 @@
           </ul>
         </nav>
       </div>
-      <div class="s-main-content">
+      <div class="s-main-content s-spiderman-01-01">
         <div class="s-main-content__top">
           <div class="s-logo">
             <img
@@ -68,8 +72,46 @@
           </div>
         </div>
 
-        <div class="s-main-content__bottom"></div>
+        <div class="s-main-content__bottom">
+          <div class="gallery">
+            <ul>
+              <li>
+                <a
+                  href="../../images/spiderman-tobey/movie-01/gallery/image-01-full.jpg"
+                  data-fancybox="gallery"
+                  ><img
+                    src="../../images/spiderman-tobey/movie-01/gallery/image-01.png"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="../../images/spiderman-tobey/movie-01/gallery/image-02-full.jpg"
+                  data-fancybox="gallery"
+                  ><img
+                    src="../../images/spiderman-tobey/movie-01/gallery/image-02.png"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="../../images/spiderman-tobey/movie-01/gallery/image-03-full.jpg"
+                  data-fancybox="gallery"
+                  ><img
+                    src="../../images/spiderman-tobey/movie-01/gallery/image-03.png"
+                    alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+      });
+    </script>
   </body>
 </html>

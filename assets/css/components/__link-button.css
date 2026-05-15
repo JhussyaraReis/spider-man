@@ -28,3 +28,7 @@ a.link-button .icon .play-icon {
   border-bottom-color: transparent;
   margin-right: -7px;
 }
+
+a.link-button .icon .label {
+  margin: 20px;
+}
